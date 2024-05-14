@@ -38,14 +38,14 @@ def main(page: Page):
         
     def ajusteMatriz(e): 
          
-        columnatemporal = matrix_size(int(slider_size.value)) #Se obtiene la matriz A con el nuevo tamaño
-        columna_Matriz_A.controls = columnatemporal #Se muestra la matriz A con el nuevo tamaño
+        columnatemporal = matrix_size(int(slider_size.value)) 
+        columna_Matriz_A.controls = columnatemporal 
         
-        columnatemporal = array_size(int(slider_size.value), 80, False) #Se obtiene la matriz A con el nuevo tamaño
-        columna_vector_X.controls = columnatemporal #Se muestra la matriz A con el nuevo tamaño
+        columnatemporal = array_size(int(slider_size.value), 80, False) 
+        columna_vector_X.controls = columnatemporal 
         
-        columnatemporal = array_size(int(slider_size.value), 80, False) #Se obtiene la matriz A con el nuevo tamaño
-        columna_vector_resultado.controls = columnatemporal #Se muestra la matriz A con el nuevo tamaño
+        columnatemporal = array_size(int(slider_size.value), 80, False) 
+        columna_vector_resultado.controls = columnatemporal 
         page.update()
         
     # Contenedor A (Inicializaciones)
