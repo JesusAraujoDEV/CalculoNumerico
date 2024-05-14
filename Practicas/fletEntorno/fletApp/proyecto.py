@@ -658,12 +658,12 @@ def main(page: Page):
 
 
     page.navigation_bar = NavigationBar(
-    bgcolor="blue",
+    bgcolor="#a0efd6",
     on_change=changetab,
     selected_index = 0,
     destinations = [
-    NavigationDestination(icon="home", label="Gauss Seidel"),
-    NavigationDestination(icon="explore"),
+        NavigationDestination(icon="home", label="Gauss Seidel"),
+        NavigationDestination(icon="explore", label="Conversión de Numeros"),
     ]
     )
 
