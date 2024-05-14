@@ -260,10 +260,10 @@ def main(page: Page):
     
     def llenar_matriz(e): 
          for i in range(int(slider_size.value)):
-            columna_vector_X.controls[i].value = randint(1,10)
+            columna_vector_X.controls[i].value = randint(1,99)
             columna_vector_resultado.controls[i].value = ""
             for j in range(int(slider_size.value)):
-                columna_Matriz_A.controls[i].controls[j].value = randint(1,10)
+                columna_Matriz_A.controls[i].controls[j].value = randint(1,99)
          page.update()
     
     boton_randomm = ft.ElevatedButton( 
@@ -737,8 +737,8 @@ def main(page: Page):
         bgcolor= "#cff8ea",
         border_radius= 15,
         margin = margin.only(
-            top=15,
-            left=270
+            top=8,
+            left=330
         ),
         #alignment="CENTER"
         )
