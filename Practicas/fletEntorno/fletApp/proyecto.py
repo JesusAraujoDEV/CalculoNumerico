@@ -3,6 +3,7 @@ from flet import *
 from random import randint
 import funciones
 
+
 # Variables
 
 
